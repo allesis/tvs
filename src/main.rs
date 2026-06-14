@@ -1,3 +1,11 @@
+mod parser;
+
+use parser::Parser;
+
+use std::env;
+
 fn main() {
-    println!("Hello, Cruel World!");
+    let p = Parser::new(env::args().collect());
+
+    println!("{}", p);
 }
