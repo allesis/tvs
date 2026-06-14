@@ -36,3 +36,8 @@ result-*
 **/.nixos-test-history
 
 # Custom Ignores #
+
+
+# Added by cargo
+
+/target
